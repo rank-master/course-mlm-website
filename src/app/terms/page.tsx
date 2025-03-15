@@ -16,7 +16,7 @@ export default function Terms() {
           </p>
           <ul className="list-disc list-inside space-y-2 text-orange-700">
             <li>You must be 16+ to participate.</li>
-            <li>Earnings are based on our referral program as outlined in "How It Works."</li>
+            <li>Earnings are based on our referral program as outlined in &quot;How It Works.&quot;</li>
             <li>We reserve the right to modify or terminate the program at any time.</li>
             <li>Payments are processed as per our payout schedule.</li>
             <li>Contact us for disputes or questions.</li>
