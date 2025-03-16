@@ -87,7 +87,7 @@ export default function Home() {
               <li>🔥 90+ Hashtags</li>
             </ul>
             <a
-              href={`https://wa.me/9707839680?text=I%20want%20to%20buy%20Instagram%20Growth%20(Bronze)%20for%20₹100`}
+              href="/products/bronze"
               className="btn bg-yellow-400 text-orange-800 hover:bg-yellow-300 mt-6 block text-center"
               target="_blank"
               rel="noopener noreferrer"
