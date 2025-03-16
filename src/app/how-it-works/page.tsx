@@ -80,7 +80,7 @@ export default function HowItWorks() {
               </li>
             </ul>
             <p className="text-orange-700 mt-4 italic">
-              Example: A ₹1000 course means ₹800 for you, ₹100 for your referrer, and ₹50 for their referrer!
+              Example: A ₹300 course means ₹240 for you, ₹30 for your referrer, and ₹15 for their referrer!
             </p>
           </div>
         </section>
@@ -106,7 +106,7 @@ export default function HowItWorks() {
               </li>
             </ul>
             <p className="text-orange-700 mt-4 italic">
-              Example: A ₹1000 course now means ₹600 for you, ₹200 for your referrer, and ₹100 for their referrer!
+              Example: A ₹300 course now means ₹180 for you, ₹60 for your referrer, and ₹30 for their referrer!
             </p>
           </div>
           <div className="flex justify-center">
@@ -142,33 +142,33 @@ export default function HowItWorks() {
           <h2 className="text-3xl font-semibold text-orange-600 mb-6">See It in Action</h2>
           <div className="flex flex-col md:flex-row justify-center gap-8">
             <div className="space-y-4">
-              <p className="text-orange-700 font-semibold">First Sale (₹1000 Course)</p>
+              <p className="text-orange-700 font-semibold">First Sale (₹300 Course)</p>
               <div className="flex items-center gap-2 justify-center">
                 <span className="text-2xl">💰</span>
-                <p className="text-orange-700">You: ₹800</p>
+                <p className="text-orange-700">You: ₹240</p>
               </div>
               <div className="flex items-center gap-2 justify-center">
                 <span className="text-2xl">➡️</span>
-                <p className="text-orange-700">Referrer: ₹100</p>
+                <p className="text-orange-700">Referrer: ₹300</p>
               </div>
               <div className="flex items-center gap-2 justify-center">
                 <span className="text-2xl">➡️</span>
-                <p className="text-orange-700">Super Referrer: ₹50</p>
+                <p className="text-orange-700">Super Referrer: ₹15</p>
               </div>
             </div>
             <div className="space-y-4">
               <p className="text-orange-700 font-semibold">Subsequent Sale (₹1000 Course)</p>
               <div className="flex items-center gap-2 justify-center">
                 <span className="text-2xl">💰</span>
-                <p className="text-orange-700">You: ₹600</p>
+                <p className="text-orange-700">You: ₹180</p>
               </div>
               <div className="flex items-center gap-2 justify-center">
                 <span className="text-2xl">➡️</span>
-                <p className="text-orange-700">Referrer: ₹200</p>
+                <p className="text-orange-700">Referrer: ₹60</p>
               </div>
               <div className="flex items-center gap-2 justify-center">
                 <span className="text-2xl">➡️</span>
-                <p className="text-orange-700">Super Referrer: ₹100</p>
+                <p className="text-orange-700">Super Referrer: ₹30</p>
               </div>
             </div>
           </div>
