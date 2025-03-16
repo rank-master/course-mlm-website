@@ -74,7 +74,7 @@ export default function Home() {
       {/* Courses Section */}
       <section className="py-12 px-4 sm:px-6 max-w-6xl mx-auto bg-amber-200">
         <h2 className="text-3xl sm:text-4xl font-bold text-orange-600 text-center mb-10 flex justify-center items-center gap-3">
-          <span className="text-4xl sm:text-5xl">🪔</span> Explore Our Courses
+          <span className="text-4xl sm:text-5xl">🪔</span> Explore Our Bundles
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {/* Bronze Course */}
@@ -146,7 +146,7 @@ export default function Home() {
             <span className="text-5xl mb-4 block">🌟</span>
             <h3 className="text-xl sm:text-2xl font-bold">Pick Your Path</h3>
             <p className="text-sm sm:text-base mt-2">
-              Choose a course that sparks your interest—start your adventure with a single step!
+              Choose a bundle that sparks your interest—start your adventure with a single step!
             </p>
           </div>
           <div className="card bg-green-400 text-orange-800 shadow-xl rounded-2xl p-6 hover:shadow-2xl transition-shadow">
