@@ -149,7 +149,7 @@ export default function HowItWorks() {
               </div>
               <div className="flex items-center gap-2 justify-center">
                 <span className="text-2xl">➡️</span>
-                <p className="text-orange-700">Referrer: ₹300</p>
+                <p className="text-orange-700">Referrer: ₹30</p>
               </div>
               <div className="flex items-center gap-2 justify-center">
                 <span className="text-2xl">➡️</span>
