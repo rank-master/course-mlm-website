@@ -46,7 +46,7 @@ export default function BronzeCourse() {
           {/* Buy Now Button (Centered) */}
           <div className="flex justify-center mb-8">
             <Link
-              href="https://wa.me/+1234567890?text=I%20want%20to%20buy%20the%20Bronze%20Course"
+              href="https://wa.me/9707839680?text=I%20want%20to%20buy%20Instagram%20Growth%20(Bronze)%20for%20%E2%82%B9200"
               target="_blank"
               className="btn bg-gradient-to-r from-yellow-500 to-orange-500 text-white font-semibold px-8 py-3 rounded-full hover:from-yellow-600 hover:to-orange-600 transition-all shadow-md"
             >
