@@ -49,8 +49,8 @@ export default function Home() {
           </h1>
           <p className="text-lg sm:text-xl text-orange-700 mb-8">
             {isLoggedIn && isFromNavbar
-              ? 'Keep growing your rewards—invite more friends or explore your dashboard!'
-              : 'Join a vibrant community, invite friends, and watch your rewards grow like a festival of wins! 🌸'}
+              ? 'Keep growing your earnings—invite more friends or explore your dashboard!'
+              : 'Unleash your maximum earning potential, and watch your earnings grow like a festival of wins! 🌸'}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             {isLoggedIn && isFromNavbar ? (
@@ -79,15 +79,15 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {/* Bronze Course */}
           <div className="card bg-white shadow-xl rounded-2xl p-6 hover:shadow-2xl transition-shadow">
-            <h3 className="text-xl sm:text-2xl font-bold text-orange-600">Instagram Growth (Bronze)</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-orange-600">Instagram Growth Bundle</h3>
             <p className="text-2xl font-extrabold text-orange-800 mt-2">₹100</p>
             <ul className="text-sm sm:text-base text-orange-700 mt-4 space-y-2">
               <li>🌸 Growth Tips & Tricks</li>
-              <li>🎨 75+ Highlight Covers</li>
-              <li>🔥 90+ Hashtags</li>
+              <li>🎨 Instagram Booster Strategy</li>
+              <li>🔥 Monetizing Instagram Account</li>
             </ul>
             <a
-              href="/products/bronze"
+              href="/products/instagram-growth-bundle"
               className="btn bg-yellow-400 text-orange-800 hover:bg-yellow-300 mt-6 block text-center"
               target="_blank"
               rel="noopener noreferrer"
@@ -98,15 +98,15 @@ export default function Home() {
 
           {/* Gold Course */}
           <div className="card bg-white shadow-xl rounded-2xl p-6 hover:shadow-2xl transition-shadow">
-            <h3 className="text-xl sm:text-2xl font-bold text-orange-600">Instagram Growth (Gold)</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-orange-600">Youtube Growth Bundle</h3>
             <p className="text-2xl font-extrabold text-orange-800 mt-2">₹200</p>
             <ul className="text-sm sm:text-base text-orange-700 mt-4 space-y-2">
-              <li>🌟 All Bronze Goodies</li>
-              <li>🎥 Reels Mastery Guide</li>
-              <li>✨ Exclusive Templates</li>
+              <li>🎥 YouTube Growth Mastery</li>
+              <li>🌟 High Quality Assets</li>
+              <li>✨ Video Editing Guide</li>
             </ul>
             <a
-              href={`https://wa.me/9707839680?text=I%20want%20to%20buy%20Instagram%20Growth%20(Gold)%20for%20₹200`}
+              href="/products/youtube-growth-bundle"
               className="btn bg-yellow-400 text-orange-800 hover:bg-yellow-300 mt-6 block text-center"
               target="_blank"
               rel="noopener noreferrer"
@@ -117,15 +117,14 @@ export default function Home() {
 
           {/* Diamond Course */}
           <div className="card bg-white shadow-xl rounded-2xl p-6 hover:shadow-2xl transition-shadow">
-            <h3 className="text-xl sm:text-2xl font-bold text-orange-600">Instagram Growth (Diamond)</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-orange-600">Video Editing Bundle (9ties Edition)</h3>
             <p className="text-2xl font-extrabold text-orange-800 mt-2">₹300</p>
             <ul className="text-sm sm:text-base text-orange-700 mt-4 space-y-2">
-              <li>🌟 All Gold + Bronze Perks</li>
-              <li>📘 Growth Mastery Guide</li>
-              <li>✨ Maximum Earning Potential</li>
+              <li>🌟 All Instagram & Youtube Growth Content</li>
+              <li>✨ High Quality Assets & Resources</li>
             </ul>
             <a
-              href={`https://wa.me/9707839680?text=I%20want%20to%20buy%20Instagram%20Growth%20(Diamond)%20for%20₹300`}
+              href="/products/video-editing-bundle"
               className="btn bg-yellow-400 text-orange-800 hover:bg-yellow-300 mt-6 block text-center"
               target="_blank"
               rel="noopener noreferrer"
