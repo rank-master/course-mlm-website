@@ -1,0 +1,56 @@
+/* tailwindcss-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-orange-700 bg-amber-100 font-sans antialiased;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-lg p-4 sm:p-6 transition-all hover:shadow-xl border border-orange-200;
+}
+
+.btn {
+  @apply font-semibold text-sm rounded-xl px-4 sm:px-6 py-2 sm:py-3 shadow-md transition-all hover:shadow-lg hover:-translate-y-1 focus:ring-4 focus:ring-opacity-50;
+}
+
+.table {
+  @apply bg-white rounded-xl shadow-md overflow-hidden;
+}
+
+.table th {
+  @apply text-white font-semibold bg-orange-500 px-2 sm:px-4 py-2 sm:py-3;
+}
+
+.table td {
+  @apply text-orange-700 border-b border-orange-100 px-2 sm:px-4 py-2 sm:py-3;
+}
+
+/* Animations */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-in {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out;
+}
