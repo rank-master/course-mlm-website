@@ -30,15 +30,15 @@ export default function BronzeCourse() {
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start gap-3">
                 <span className="w-4 h-4 bg-yellow-200 rounded-full mt-1"></span>
-                <span>Instagram Growth Tips & Tricks</span>
+                <span>🌸 Growth Tips & Tricks</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-4 h-4 bg-yellow-200 rounded-full mt-1"></span>
-                <span>90+ Powerful Set of Hashtags</span>
+                <span>🎨 Instagram Booster Strategy</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-4 h-4 bg-yellow-200 rounded-full mt-1"></span>
-                <span>75+ Instagram Highlight Covers</span>
+                <span>🔥 Monetizing Instagram Account</span>
               </li>
             </ul>
           </div>
