@@ -40,6 +40,10 @@ export default function GoldCourse() {
                 <span className="w-4 h-4 bg-yellow-200 rounded-full mt-1"></span>
                 <span>✨ Video Editing Guide</span>
               </li>
+              <li className="flex items-start gap-3">
+                <span className="w-4 h-4 bg-yellow-200 rounded-full mt-1"></span>
+                <span>🌸 Instagram Growth Bundle included in this bundle</span>
+              </li>
             </ul>
           </div>
 
