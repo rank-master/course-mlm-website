@@ -20,7 +20,7 @@ export default function GoldCourse() {
         <div className="bg-white shadow-lg rounded-lg p-8 border-l-8 border-yellow-600">
           {/* Title and Price */}
           <h1 className="text-4xl font-extrabold text-yellow-600 mb-2 tracking-wide">
-            Instagram Growth Bundle (Gold)
+            Youtube Growth Bundle
           </h1>
           <p className="text-3xl font-bold text-pink-500 mb-6">₹200</p>
 
@@ -30,11 +30,15 @@ export default function GoldCourse() {
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start gap-3">
                 <span className="w-4 h-4 bg-yellow-200 rounded-full mt-1"></span>
-                <span>All Bronze Content</span>
+                <span>🎥 YouTube Growth Mastery</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-4 h-4 bg-yellow-200 rounded-full mt-1"></span>
-                <span>Reels Mastery Guide</span>
+                <span>🌟 High Quality Assets</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-4 h-4 bg-yellow-200 rounded-full mt-1"></span>
+                <span>✨ Video Editing Guide</span>
               </li>
             </ul>
           </div>
